@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Підслухано Буча</title>
+    <title>Підслухано Буча, головні законтачені</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <style>
+        body {
+            background-image: url('img/Фон\ для\ сайта.jpg'); /* Заміни шлях на свій */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
         .photo-hover:hover {
             transform: scale(1.05);
             transition: transform 0.3s ease-in-out;
@@ -23,12 +30,13 @@
         }
     </style>
 </head>
-<body class="bg-gradient-to-r from-pink-300 via-purple-300 to-pink-300">
-    <header class="bg-pink-700 text-lime-400 text-center py-8">
-        <h1 class="text-6xl font-extrabold neon-text blink" style="font-family: 'Bebas Neue', sans-serif;">ПІДСЛУХАНО БУЧА 🔥</h1>
+<body>
+    <header class="bg-pink-700 bg-opacity-70 text-lime-400 text-center py-8">
+        <h1 class="text-6xl font-extrabold neon-text blink" style="font-family: 'Bebas Neue', sans-serif;">ПІДСЛУХАНО БУЧА СУПЕР МЕГА ЗАКОНТАЧЕНІ ТІПИ 🔥</h1>
     </header>
     <main class="container mx-auto py-10">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <!-- Всі блоки з фото залишаються без змін -->
             <div class="text-center">
                 <img src="img/Игорек 12.png" alt="Photo 1" class="w-full h-64 object-cover rounded-xl shadow-lg photo-hover border-4 border-pink-500">
                 <p class="mt-2 text-lg font-semibold text-white">Репшери але не законтачені, справа гроза хмельницької області</p>
@@ -39,7 +47,7 @@
             </div>
             <div class="text-center">
                 <img src="img/Oleg.png" alt="Photo 3" class="w-full h-64 object-cover rounded-xl shadow-lg photo-hover border-4 border-pink-500">
-                <p class="Abdula_Bulba но не законтачен">Abdula Bulba но не законтачен</p>
+                <p class="text-lg font-semibold text-white">Abdula Bulba но не законтачен</p>
             </div>
             <div class="text-center">
                 <img src="img/Харик.jpg" alt="Photo 4" class="w-full h-64 object-cover rounded-xl shadow-lg photo-hover border-4 border-lime-400">
@@ -55,8 +63,8 @@
             </div>
         </div>
     </main>
-    <footer class="bg-pink-800 text-lime-300 text-center py-6">
-        <p class="text-2xl font-bold neon-text" style="font-family: 'Bebas Neue', sans-serif;">© 2025 ПІДСЛУХАНО БУЧА </p>
+    <footer class="bg-pink-800 bg-opacity-70 text-lime-300 text-center py-6">
+        <p class="text-2xl font-bold neon-text" style="font-family: 'Bebas Neue', sans-serif;">© ARHIV: Monte Higgins & 2025</p>
     </footer>
 </body>
 </html>
